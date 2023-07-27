@@ -1,0 +1,223 @@
+
+ * {
+    margin: 0px;
+    padding: 0px;
+    background-size:auto;
+} 
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary {
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    padding: 15px 35px;
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header {
+    background-color: #FFF8F3;
+    background: url('../images/banner/banner2.png'), lightgray 50% / cover no-repeat;
+    width: 1600px;
+    height: 808px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.banner-content {
+    max-width: 525px;
+    text-align: right;
+}
+.banner{
+    margin-left: 845px;
+    padding-top: 216px;
+    padding-right: 230px;
+}
+.banner-greeting{
+    width: 525px;
+    color:#151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+    
+}
+.banner-description{
+    width: 494px;
+color:#444343;
+text-align: right;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-top: 24px;
+margin-bottom: 32px;
+}
+main  {
+    margin-top: 130px;
+    background: #FFF;
+
+}
+.check
+{
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.about-info-container{
+    display: flex;
+    gap: 50px;
+}
+.person{
+    margin-left: 228px;
+    border-radius: 50%;
+    position: relative;
+    background-color:lightpink;
+}
+.about{
+    margin-left:200px;
+    padding-top: 256px;
+}
+.title{
+    width: 288px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.section-description{
+    margin-bottom: 24px;
+}
+.section-title {
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+
+}
+
+.skill-description {
+    color: #757575;
+}
+.mySkill
+{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.last-section{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin-left: 230px;
+    padding-bottom: 100px;
+}
+.last{
+    width: 1140px;
+    height: 300px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100% );
+    
+}
+.photoTitle{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 110px;
+    padding-top: 50px;
+}
+.developertitle{
+    text-align: center;
+}
+.btn-btn{
+    width: 160px;
+    height: 64px;
+    border: 0px;
+   border-radius: 5px;
+   background: #FFF;
+   margin-left: 110px;
+}
+footer {
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    box-shadow: 0px 0px 10px 5px rgb(239, 237, 242);
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.footer{
+    width: 50%;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+.footer-description {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 40px;
+    font-weight: 700;
+    justify-content: flex-start;
+    text-align: left;
+}
+.btn-footer {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.s-btn{
+    border-radius: 5px;
+    color: #F15B22;
+    border: 0;
+    padding: 15px 35px;
+    background: #FFF;
+   text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+}
+#id{
+    color: #F8F8F8;
+    border: #F8F8F8;
+    background-color: #151414;
+    width: 325px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    
+}
